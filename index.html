@@ -7,7 +7,7 @@
     <style>
         /* Estilizando a classe destaque */
         .destaque {
-            background-color: lightyellow;
+            background-color: rgb(243, 243, 78);
             padding: 10px;
         }
 
@@ -28,20 +28,20 @@
     <main>
         <!-- 2. Inserindo imagens -->
         <h2>Imagens</h2>
-        <img src="imagem1.jpg" alt="Descrição da imagem 1" width="200" height="150">
+        <img src="cachorro1.jpg" alt="Descrição da imagem 1" width="200" height="150">
         <img src="imagem2.jpg" alt="Descrição da imagem 2" width="300">
-        <img src="imagem3.jpg" alt="Descrição da imagem 3">
+        <img src="imagem3.avif" alt="Descrição da imagem 3" width="150">
 
         <!-- 3. Inserindo vídeo -->
         <h2>Vídeo</h2>
-        <video src="video.mp4" controls width="400" poster="poster.jpg">
+        <video src="Vídeo_de_Cachorro_Latindo_Gerado.mp4" controls width="400" poster="poster.jpg">
             Seu navegador não suporta a tag vídeo.
         </video>
 
         <!-- 4. Inserindo áudio -->
         <h2>Áudio</h2>
         <audio controls>
-            <source src="musica.mp3" type="audio/mpeg">
+            <source src="audio.mp3" type="audio/mpeg">
             <source src="musica.ogg" type="audio/ogg">
             Seu navegador não suporta áudio.
         </audio>
@@ -64,7 +64,9 @@
         <!-- 6. Links -->
         <h2>Links</h2>
         <a href="https://www.google.com">Link simples para o Google</a><br>
-        <a href="https://www.google.com"><img src="imagem2.jpg" alt="Google" width="100"></a><br>
+        <!-- ...existing code... -->
+<a href="imagem2.jpg" target="_blank"><img src="imagem2.jpg" alt="Imagem clicável" width="100"></a><br>
+<!-- ...existing code... -->
         <a href="https://www.google.com" target="_blank">Abrir Google em nova aba</a>
 
         <!-- 7. Listas -->
@@ -105,17 +107,25 @@
         </table>
 
         <!-- 9. IDs e Classes -->
-        <h2>IDs e Classes</h2>
-        <p id="introducao">Este é um parágrafo introdutório com ID.</p>
-        <p class="destaque">Este é o primeiro parágrafo com classe destaque.</p>
-        <p class="destaque">Este é o segundo parágrafo com classe destaque.</p>
-
-        <!-- 10. Div como container -->
-        <div class="container">
-            <h3>Subtítulo dentro de uma div</h3>
-            <p>Primeiro parágrafo dentro da div container.</p>
-            <p>Segundo parágrafo dentro da div container.</p>
-        </div>
+<!-- ...existing code... -->
+<h2>IDs e Classes</h2>
+<p id="introducao">
+    Este site foi desenvolvido como exercício prático de HTML5, abordando diversos recursos essenciais para a construção de páginas web modernas. O objetivo é apresentar exemplos de imagens, vídeos, áudio, formulários, links, listas, tabelas, IDs, classes e containers.
+</p>
+<p class="destaque">
+    O código utiliza tags semânticas e propriedades de CSS para garantir uma estrutura organizada e visual agradável. Elementos como imagens e vídeos são exibidos diretamente na página, enquanto o formulário permite a interação do usuário.
+</p>
+<p class="destaque">
+    Além disso, o uso de IDs e classes facilita a personalização dos estilos, tornando o conteúdo mais destacado e acessível. Este exercício serve como base para quem deseja aprender e praticar os fundamentos do desenvolvimento web.
+</p>
+<!-- ...existing code... -->
+<!-- 10. Div como container -->
+<div class="container">
+    <h3>Sobre o exercício</h3>
+    <p>Esta seção está agrupada em uma div com a classe <strong>container</strong>, que aplica borda, espaçamento e cor de fundo diferenciada. O objetivo é mostrar como utilizar containers para organizar o conteúdo da página.</p>
+    <p>Utilizar divs com classes facilita a estilização e a estruturação do layout, tornando o site mais organizado e visualmente agradável. Experimente modificar as propriedades da classe no CSS para ver diferentes efeitos.</p>
+</div>
+<!--
     </main>
 
     <footer>
